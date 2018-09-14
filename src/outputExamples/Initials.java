@@ -4,15 +4,14 @@ public class Initials {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("  CCCCC           M         M"
-				+ "\n C              M   M      M"
-				+ "\nC              M     M    M"
-				+ "\nC             M       M  M"
-				+ "\nC            M         M"
-				+ "\nC            M         M"
-				+ "\n C           M         M"
-				+ "\n  CCCCC");
-		System.out.print("      M         M");
+		System.out.println("  CCCCCCC       M        M         SSSSSSS");
+		System.out.println(" C             M  M     M M        SS");
+		System.out.println("C             M    M   M   M       SS");
+		System.out.println("C            M      M M     M      SSSS");
+		System.out.println("C            M       M      M         SSSS");
+		System.out.println("C            M              M           SS");
+		System.out.println(" C           M              M           SS");
+		System.out.println("  CCCCCCC    M              M      SSSSSSS");
 	}
 
 }
