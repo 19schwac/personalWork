@@ -8,7 +8,7 @@ public class howManyYearsUntilVote {
 		int age = 0;
 		System.out.println("What is your age?");
 		age = input.nextInt();
-		age = 18- age;
+		age = 18 - age;
 		System.out.println("It will be " + age + " year(s) before you can vote.");
 	}
 
