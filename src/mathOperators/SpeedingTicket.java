@@ -12,8 +12,7 @@ public class SpeedingTicket {
 		speedLimit = input.nextInt();
 		System.out.println("How fast are you going?");
 		yourSpeed = input.nextInt();
-		yourSpeed= yourSpeed-1;
-		cost = 55+40*(yourSpeed-speedLimit);
+		cost = 55+40*((yourSpeed-1)-speedLimit);
 		System.out.println("Speed Limit: " + speedLimit);
 		System.out.println("Your Speed: " + yourSpeed);
 		System.out.println("Your ticket will cost " + cost);
