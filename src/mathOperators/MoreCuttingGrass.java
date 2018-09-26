@@ -18,7 +18,7 @@ public class MoreCuttingGrass {
 		length = input.nextDouble();
 		System.out.println("What is the width of your yard in feet?");
 		width = input.nextDouble();
-		System.out.println("What is the width of the length of the mower deck in inches?");
+		System.out.println("What is the length of the mower deck in inches?");
 		mowerDeck = input.nextDouble();
 		System.out.println("How fast is your lawn mower (mph)?");
 		mph = input.nextDouble();
