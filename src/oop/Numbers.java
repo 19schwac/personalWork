@@ -15,4 +15,16 @@ public class Numbers {
 		double numTotal = num1+num2;
 		System.out.println("The sum of your two numbers is " + numTotal);
 	}
+	public double returnSquare(double num){
+	num = num*num;
+	return num;
+	}
+	public double returnArea(double length, double width){
+		double area = length*width;
+	return area;	
+	}
+	public int returnRoundUp(double num){
+		int round = (int)Math.ceil(num);
+	return round;	
+	}
 }
