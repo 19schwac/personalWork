@@ -13,7 +13,8 @@ public class Shoe {
 		height = input.nextInt();
 		System.out.println("What is your shoe size?");
 		shoeSize = input.nextInt();
-		System.out.println(height + shoeSize >= 26);
+		System.out.println(height < 62 && shoeSize > 9);
+	
 	}
 
 }
