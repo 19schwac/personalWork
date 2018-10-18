@@ -13,11 +13,9 @@ public class Honors {
 		gpa = input.nextDouble();
 		System.out.println("What grade are you?");
 		grade = input.nextInt();
-		System.out.println("I hope your having a great day!");
 		if (grade == 12 && gpa >= 3.5) {
 			System.out.println("You are graduating with honors.");
-		}
-		else {
+		} else {
 			System.out.println("You are not graduating with honors.");
 		}
 	}
