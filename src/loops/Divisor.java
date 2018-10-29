@@ -9,7 +9,7 @@ public class Divisor {
 		int divisor = 0;
 		int largest = 0;
 		int most = 0;
-		for (num = 1; num <= 100000; num++) {
+		for (num = 1; num <= 1000; num++) {
 			divisor = 0;
 			for (count = 1; count <= num; count++) {
 				if (num % count == 0) {
