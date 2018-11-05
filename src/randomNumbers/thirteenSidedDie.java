@@ -7,10 +7,10 @@ public class thirteenSidedDie {
 		int min = 1;
 		int max = 13;
 		int multiple = 0;
-
+		
 		for (int count = 1; count <= 87; count++) {
 			int random = min + (int) (Math.random() * (max - min + 1));
-			if (random % 3 == 0) {
+			if (random % 3 == 0){
 				multiple++;
 			}
 		}
