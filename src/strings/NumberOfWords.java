@@ -13,7 +13,7 @@ public class NumberOfWords {
 
 			if (sentence.charAt(i) != ' ') {
 				System.out.print(sentence.charAt(i));
-			}else{
+			} else {
 				System.out.println();
 			}
 		}
