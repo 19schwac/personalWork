@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Scanner;
 
-public class Activity10 {
+public class Activity12 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,9 +10,10 @@ public class Activity10 {
 		System.out.println("Write a sentence.");
 		String sentence = input.nextLine();
 		String[] words = sentence.split(" ");
-		for (int i = 0; i < words.length; i++) {
-			System.out.println(words[i].charAt(0));
-
-		}
+		int min = 0;
+		int max = words.length-1;
+		int random = min + (int) (Math.random() * (max - min + 1));
+		System.out.println(words[random]);
 	}
+
 }
