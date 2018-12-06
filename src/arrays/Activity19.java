@@ -12,6 +12,7 @@ public class Activity19 {
 		friend.add(new FriendClass("Christian", 17));
 		friend.add(0, new FriendClass("Josh", 7));
 		friend.add(0, new FriendClass("Kenny", 3));
+
 	}
 
 }
