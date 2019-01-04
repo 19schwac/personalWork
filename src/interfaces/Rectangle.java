@@ -1,6 +1,6 @@
 package interfaces;
 
-public class Rectangle
+public class Rectangle implements InterfaceNumeroUno
 {
     private double length;
     private double width;

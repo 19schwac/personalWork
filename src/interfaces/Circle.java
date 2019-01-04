@@ -1,6 +1,6 @@
 package interfaces;
 
-	public class Circle
+	public class Circle implements InterfaceNumeroUno
 	{
 	    private double radius;
 	    
