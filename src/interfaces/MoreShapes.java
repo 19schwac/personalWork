@@ -7,7 +7,7 @@ public class MoreShapes {
 double total = 0.0;
 Circle round = new Circle(3);
 Rectangle box = new Rectangle(5,5);
-ArrayList <InterfaceNumeroUno> shape = new <InterfaceNumeroUno> ArrayList();
+ArrayList <InterfaceNumeroUno> shape = new  ArrayList <InterfaceNumeroUno> ();
 shape.add(box);
 shape.add(round);
 for (int i = 0; i <= shape.size()-1; i++){
