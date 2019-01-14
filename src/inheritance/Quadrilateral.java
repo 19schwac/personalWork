@@ -55,4 +55,13 @@ public class Quadrilateral {
 		double sum = s1+s2+s3+s4;
 		return sum;
 	}
+	public String toString(){
+		return ("Quadrilateral Object, s1: " + s1 + ", s2: " + s2 + ", s3: " + s3 + ", s4: " + s4);
+	}
+	public boolean equals(Object anObject){
+		return (this.toString().equals(anObject.toString()));
+	}
+	public Object clone(){
+		return new Quadrilateral(s1,s2,s3,s4);
+	}
 }

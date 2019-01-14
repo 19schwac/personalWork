@@ -3,10 +3,7 @@ package inheritance;
 public class Paralleogram extends Quadrilateral{
 private double paraHeight;
 	public Paralleogram(){
-		sets1(2);
-		sets2(2);
-		sets3(5);
-		sets4(5);
+		super();
 		paraHeight = 3;
 	}
 	public Paralleogram(double side1, double side2, double newHeight){
@@ -27,5 +24,8 @@ private double paraHeight;
 	}
 	public double getHeight(){
 		return paraHeight;
+	}
+	public String toString(){
+		return ("Paralleogram Object, height: " + paraHeight + super.toString());
 	}
 }
