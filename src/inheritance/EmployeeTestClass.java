@@ -14,6 +14,11 @@ System.out.println(jesus.calculatePay(8));
 System.out.println(jesus.getName());
 System.out.println(jesus.getRate());
 System.out.println(jesus.toString());
+Manager pop = new Manager("Pop", 8.50, 5);
+System.out.println(pop.calculatePay(8));
+System.out.println(pop.getName());
+System.out.println(pop.getRate());
+System.out.println(pop.clone());
 	}
 
 }
