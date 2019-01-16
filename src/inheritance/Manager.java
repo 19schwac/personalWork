@@ -16,6 +16,6 @@ public double calculatePay(double newHours){
 	return pay;
 }
 public Object clone() {
-	return new Manager(newLevel);
+	return new Manager(getName(), getRate(), level);
 }
 }
